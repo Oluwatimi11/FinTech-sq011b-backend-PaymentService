@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Payment.API</name>
+    </assembly>
+    <members>
+        <member name="M:Payment.API.Controllers.BankAccountsController.AddBeneficiary(Payment.Core.DTOs.BeneficiaryDto.BeneficiaryRequestDto,System.String)">
+            <summary>
+            add beneficiary
+            </summary>
+            <param name="beneficiaryRequestDto"></param>
+            <param name="walletId">Data transfer object containing the request parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.API.Controllers.BankAccountsController.GetAllBeneficiariesAsync(System.Int32,System.String)">
+            <summary>
+            Returns List of Beneficiaries in Pages.
+            </summary>
+            <param name="pageNumber"></param>
+            <param name="pageSize"></param>
+            <param name="walletId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.API.Controllers.BankAccountsController.DeletBeneficiary(System.String,System.String)">
+            <summary>
+            delete beneficiary
+            </summary>
+            <param name="AccountNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.API.Controllers.BankAccountsController.VerifyAccountNumber(Payment.Core.DTOs.PaystackDtos.BankDtos.VerifyAccountRequestDto)">
+            <summary>
+            verify Account Number
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.API.Controllers.TransactionsController.GetTransactionHistoryAsync(System.String,System.Int32)">
+            <summary>
+            Returns Transaction History in Pages.
+            </summary>
+            <param name="walletId"></param>
+            <param name="pageNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.Get(System.String)">
+            <summary>
+            Retrieved wallet by id
+            </summary>
+            <param name="id"></param>
+            <returns>Returns statusCode 200 if found and statusCode 417 if not found</returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.GetUserWallet(System.String)">
+            <summary>
+            Retrieved wallet by id
+            </summary>
+            <param name="id"></param>
+            <returns>Returns statusCode 200 if found and statusCode 417 if not found</returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.CreateWallet(Payment.Core.DTOs.WalletDtos.CreateWalletRequest)">
+            <summary>
+            Creates a wallet for the user with given UserId
+            </summary>
+            <param name="walletRequestDto">Data transfer object containing the request parameters</param>
+            <returns>A data transfer object containing the result of the request</returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.InitializationFundWallet(Payment.Core.DTOs.PaystackDtos.FundAccountDto.FundWalletRequest,System.String)">
+            <summary>
+            initailize payment process
+            </summary>
+            <param name="request"></param>
+            <param name="walletId"></param>
+            <returns>Return PaymentInitalizationResponseModel </returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.FundWallets(Payment.Core.DTOs.PaystackDtos.FundAccountDto.VerifyTransactionRequestDto,System.String)">
+            <summary>
+             verify payment
+            </summary>
+            <param name="reference"></param>
+            <param name="walletId"></param>
+            <returns>Payment completed</returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.Transfer(Payment.Core.DTOs.TransactionsDto.TransferRequestDto,System.String)">
+            <summary>
+            Returns a Dto on a successful transfer
+            </summary>
+            <param name="request"></param>
+            <param name="walletId"></param>
+            <returns>200 statusCode and a Dto on successful transfer
+            failed if failed </returns>
+        </member>
+        <member name="M:Payment.API.Controllers.WalletsController.LocalTransfer(System.String,Payment.Core.DTOs.TransactionsDto.LocalTransferRequestDto)">
+            <summary>
+            Return Payment Successful from wallet if payment was successful and failed if not successful
+            </summary>
+            /// <param name="walletId">Source wallet ID</param>
+            <param name="request">Object containing request body</param>
+            <returns>200 statusCode and Payment Successful if successful and 400 status if failed</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/bin/Debug/net6.0/Payment.Core.deps.json
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/bin/Debug/net6.0/Payment.Core.dll
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/bin/Debug/net6.0/Payment.Core.pdb
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/bin/Debug/net6.0/Payment.Domain.dll
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/bin/Debug/net6.0/Payment.Domain.pdb
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.csproj.AssemblyReference.cache
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.AssemblyInfoInputs.cache
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.AssemblyInfo.cs
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.csproj.CoreCompileInputs.cache
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.csproj.CopyComplete
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.dll
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/refint/Payment.Core.dll
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/Payment.Core.pdb
+/Users/thebluehood/Desktop/DecagonC#/Live Project/Live/FinTech-SQ011B-PaymentService/Payment.Core/obj/Debug/net6.0/ref/Payment.Core.dll
